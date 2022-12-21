@@ -1,0 +1,112 @@
+body{
+    font-family: arial, sans-serif;
+    background: #CCC;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;   
+}
+
+.hero-content {
+
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 2px #333  
+}
+
+.hero nav ul{
+
+    text-align: right;
+    margin: 20px 50px
+
+}
+
+
+
+.hero nav li{
+
+  display: inline-block;
+  list-style: none; 
+  margin: 10px;
+  border: solid 1px white;
+
+}
+
+
+
+.hero nav a{
+
+background: rgba(0,0,0, 0.3);
+display: block;
+padding: 15px;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 10px;
+letter-spacing: 2px;
+
+
+}
+
+.hero nav a:hover{
+
+    background: rgba(0,0,0, 0.5);
+
+}
+
+main{
+
+width: 80%;
+margin:auto
+
+
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top:15px
+
+}
+
+
+
+.titulo-inicio h2{
+background-color: rgb(214, 213, 213);
+border-bottom: solid 3px rgb(180, 175, 175);
+margin: 0px;
+padding: 10px;
+text-align:left;
+
+
+}
+
+footer{
+
+text-align: center;
+background-color: rgb(119, 116, 116);
+padding: 15px;
+margin-top: 15px;
+
+}
+
+Footer p{
+
+    color: white;
+    text-shadow: 3px 3px 2px #333
+}
